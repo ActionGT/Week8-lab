@@ -41,8 +41,8 @@ function calc() {
     alert("you loose");
   } else if (selectedValue == "scissor" && com == "scissor") {
     alert("draw");
-  } else if (selectedValue == "scissor" && com == "rock") {
-    alert("you win")
+  } else if (selectedValue == "scissor" && com == "paper") {
+    alert("you win");
   } else if (selectedValue == "rock" && com == "paper") {
     alert("you loose");
   } else if (selectedValue == "rock" && com == "rock") {
